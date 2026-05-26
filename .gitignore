@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Vite
+vite.svg
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+
+# Optional lockfiles (deja package-lock si usas npm)
+yarn.lock
+pnpm-lock.yaml
